@@ -1,0 +1,9 @@
+Application to do the following-
+1. Creation of bucket in s3
+2. Upload of a image from local drive to S3
+
+for the purpose of this , a post mapping is used . we need to pass the data as a 'multipart_form_data_value'.
+- BasicAWSCredentials is used to store the secret key and Id for the AWS user group.
+- s3client has APIs which helps in creating , building and performing various operation on S3 buckets.
+- IOUtils is used to stream the Object for reading and writing purpose.
+- ObjectMetadata is used to set the attributes of the input stream Object
